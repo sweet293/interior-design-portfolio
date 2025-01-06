@@ -51,7 +51,7 @@ const HelpLinks = [
 
 const Footer = () => {
     return (
-        <div className="bg-dark text-black">
+        <div className="bg-dark text-white">
           <section className="container py-10">
             <div className=" grid md:grid-cols-3 py-5">
               {/* company Details */}
