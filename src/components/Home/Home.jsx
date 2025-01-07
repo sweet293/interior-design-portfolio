@@ -11,7 +11,7 @@ const Home = () => {
         <img
           src={front_image}
           alt="front_image"
-          className="w-full h-[600px] object-cover"
+          className="w-full h-[650px] object-cover"
         />
         {/* Overlay */}
         <div 
@@ -21,7 +21,7 @@ const Home = () => {
         {/* Hero Text */}
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-7xl font-merriweather animate-slideUp">
-            Welcome to Nature
+            Welcome To KAISER
           </h1>
         </div>
       </div>

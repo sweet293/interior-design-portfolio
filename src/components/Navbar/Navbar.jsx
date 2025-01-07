@@ -24,7 +24,7 @@ const Menus = [
 const Navbar = () => {
   const gamesRef = useRef<HTMLDivElement | null>(null);
   return (
-    <div className=' text-white bg-gradient-to-b from-black/80 to-transparent absolute top-0 left-0 right-0 z-10'>
+    <div className=' text-white bg-gradient-to-b from-black/80 to-transparent fixed top-0 left-0 right-0 z-10'>
       <div className="container py-2">
           <div className="flex justify-between items-center gap-4">
             <div data-aos="fade-down" data-aos-once="true">
