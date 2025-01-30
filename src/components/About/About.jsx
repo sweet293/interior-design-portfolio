@@ -4,15 +4,18 @@ import woman from "../../assets/website/woman.png"
 const About = () => {
   return (
     <div>
-      <div className='min-h-[600px] container flex place-items-center'>
-        <div className='space-x-4 grid grid-cols-1 sm:grid-cols-2 gap-5 place-items-center'>
-            <div>
-                <img src={woman} alt="Professional woman in business attire" className='w-[300px]'/>
+      <div className='min-h-screen container flex justify-center items-center'>
+        <div className=' flex-col space-x-4 grid grid-cols-1 md:flex-row  sm:grid-cols-2 gap-8 max-w-6xl mx-auto items-centerp-6 '>
+            <div className="bg-red-400 p-6 rounded-2xl shadow-lg">
+                <img 
+                src={woman} 
+                alt="Professional woman in business attire" 
+                className='w-[300px] rounded-xl shadow-md'/>
 
             </div>
 
             {/* text*/}
-            <div className='space-y-8' >
+            <div className='space-y-8 md:text-left' >
                 <h1 className='text-4xl font-bold'>
                     Anna Delvey
                 </h1>

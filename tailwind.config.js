@@ -13,10 +13,18 @@ export default {
         merriweather: ["Merriweather", "serif"],
       },
       colors:{
-        primary: "#120401",
+        primary: "#a81e05",
         secondary: "#4a1e1b",
         brandDark: "#0b0b0d",
         brandBlue: "#125795",
+        purple: {
+          200: "#d6b3ff",
+          700: "#6b00b3",
+        },
+        red: {
+          200: "#ffc0cb",
+          700: "#b30000",
+        }
       },
       container: {
         center: true,
@@ -34,6 +42,9 @@ export default {
       animation: {
         slideUp: 'slideUp 1s ease-out',
       },
+      boxShadow:{
+        neon: "0 0 15px theme('colors.purple.200'), 0 0 50px theme('colors.red.700')"
+      }
     },
   },
   plugins: [],
