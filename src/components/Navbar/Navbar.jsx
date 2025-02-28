@@ -11,13 +11,13 @@ const Menus = [
   },
   {
     id: 2,
-    name: "Services",
-    link: "/#services",
+    name: "Projects",
+    link: "/#projects",
   },
   {
     id: 3,
-    name: "About",
-    link: "/#about",
+    name: "My Blog",
+    link: "/#myblog",
   },
 ]
 
@@ -34,8 +34,8 @@ const Navbar = () => {
                 justify-center items-center gap-2 tracking-wider 
                 font-cursive'
               >
-                <img src={logo_main} alt="logo" className='w-14'/>
-                KAISER
+                <img src={logo_main} alt="logo" className='w-20'/>
+                
               </a>
             </div>
 

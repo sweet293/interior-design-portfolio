@@ -7,8 +7,8 @@ const FooterLinks = [
         link: "/#about",
     },
     {
-        title: "Works",
-        link: "/#works",
+        title: "Projects",
+        link: "/#projects",
     },
     {
         title: "Career",
@@ -25,25 +25,21 @@ const HelpLinks = [
       link: "/#delivery-details",
     },
     {
-      title: "Terms & Conditions",
-      link: "/#terms",
-    },
-    {
       title: "Privacy Policy",
       link: "/#policy",
     },
   ];
   const ResourcesLinks = [
     {
-      title: "Free Ebooks",
+      title: "Follow KAISER on Behance",
       link: "/#ebooks",
     },
     {
-      title: "How To Blog",
+      title: "Follow KAISER on instagram",
       link: "/#blogs",
     },
     {
-      title: "Subscribe TCJ",
+      title: "Subscribe KIDA",
       link: "https://www.youtube.com",
     },
   ];
@@ -57,12 +53,11 @@ const Footer = () => {
               {/* company Details */}
               <div className=" py-8 px-4 ">
                 <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-                  Digital Agency
+                  KAISER Interior Design Agency
                 </h1>
                 <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit consectetur adipisicing elit ipsum
-                  dolor sit amet consectetur. adipisicing{" "}
+                We craft stunning interiors that blend style and functionality, bringing your vision to life with 
+                creativity and precision. Transform your space with expert design solutions tailored just for you.{" "}
                 </p>
                 <br />
                 {/* Social Handle */}
