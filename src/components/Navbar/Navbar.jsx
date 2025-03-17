@@ -17,7 +17,7 @@ const Menus = [
   {
     id: 3,
     name: "My Blog",
-    link: "/#myblog",
+    link: "/#blog",
   },
 ]
 
