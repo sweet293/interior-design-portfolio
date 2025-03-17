@@ -16,8 +16,8 @@ const Menus = [
   },
   {
     id: 3,
-    name: "About",
-    link: "/#about",
+    name: "My Blog",
+    link: "/#blog",
   },
 ]
 

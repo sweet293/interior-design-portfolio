@@ -7,6 +7,7 @@ const Blog = () => {
 
   return (
   <>
+  <span id="blog"></span>
     <div className=' dark:bg-gray-900 dark:text-white py-10 pb-14'>
       <div className='container '>
         <h1 className='my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-semibold'>My Blog</h1>

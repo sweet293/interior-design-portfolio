@@ -3,6 +3,8 @@ import woman from "../../assets/website/woman.png"
 
 const About = () => {
   return (
+    <>
+    
     <div>
       <div className='min-h-screen container flex justify-center items-center'>
         <div className=' flex-col space-x-4 grid grid-cols-1 md:flex-row  sm:grid-cols-2 gap-8 max-w-6xl mx-auto items-centerp-6 '>
@@ -42,6 +44,7 @@ const About = () => {
 
       </div>
     </div>
+    </>
   )
 }
 
