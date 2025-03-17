@@ -3,6 +3,7 @@
   "name": "designer",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://sweet293.github.io/interior-design-portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

@@ -10,7 +10,7 @@ const Services = () => {
     return (
     <>
     
-    <span id="services"></span>
+    <span id="projects"></span>
     <div className='container mt-40'>
       {/* Content Below Hero */}
         <div className="text-center md:max-w-[650px] mx-auto space-y-4">

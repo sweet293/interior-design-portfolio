@@ -11,21 +11,21 @@ const Testimonials = () => {
       name: "Thomas",
       image: testim1, // Replace with the actual image URL
       rating: 5,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "This platform exceeded my expectations! The support team is always available, and the results have been fantastic. Highly recommended!",
       isHighlighted: false,
     },
     {
       name: "Julia",
       image: testim2, // Replace with the actual image URL
       rating: 5,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "A seamless experience from start to finish. The attention to detail and user-friendly interface make this the best service I've used in a long time!",
       isHighlighted: true,
     },
     {
       name: "Jane",
       image: testim3, // Replace with the actual image URL
       rating: 5,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      text: "I was skeptical at first, but after trying it out, I can confidently say this is a game-changer. Excellent service and outstanding results!",
       isHighlighted: false,
     },
   ];

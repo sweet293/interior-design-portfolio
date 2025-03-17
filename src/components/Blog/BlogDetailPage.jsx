@@ -16,16 +16,20 @@ const BlogDetailPage = () => {
     return (
         <div className="container mx-auto p-6">
           <h1 className="mt-32 text-3xl font-bold">{blog.title}</h1>
-    
+        
+        
           {blog.cover && (
             <div className="relative mt-8">
-              <div className="flex justify-center mx-auto w-full">
-                <img src={getImageURL(blog.cover)} alt="Cover Image" className="h-[400px] w-auto object-cover rounded-lg" />
+              <div className="flex mx-auto w-full">
+                <img src={getImageURL(blog.cover)} alt="Cover Image" className="h-[300px] float-left w-auto object-cover rounded-lg" />
+                <p className="text-gray-400 ml-8 mt-4">{blog.description}</p>
               </div>
             </div>
           )}
     
-          <p className="text-gray-400 mt-4">{blog.description}</p>
+          
+          
+        
         </div>
       );
   };
